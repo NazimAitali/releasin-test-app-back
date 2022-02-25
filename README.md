@@ -5,6 +5,7 @@
 - [Aperçu](#Aperçu)
   - [Démarrer](#Démarrer)
   - [liens](#liens)
+  - [endpoint](#endpoint)
 - [Démarche](Démarche)
   - [Built with](#built-with)
 - [Auteur](#Auteur)
@@ -27,6 +28,22 @@ NB : assurez-vous que NodeJs , NPM et mongoDBcompas sont bien installés sur vot
 
 Lien GitRepo : https://github.com/NazimAitali/releasin-test-app-front.git
 Lien live : https://releasin-test-app.netlify.app/
+
+### endpoint
+
+- Get products : http://localhost:8080/api
+- Post Product :
+    1. attributeValue : http://localhost:8080/api/attributeValue
+    2. attributes : http://localhost:8080/api/attributes/:id
+    3. assignedattributes : http://localhost:8080/api/assigned/:id
+    4. productType : http://localhost:8080/api/product/:id
+    5. product : http://localhost:8080/api/product/:type/:att
+-  Delete :
+    1. attributeValue: http://localhost:8080/api/attributesValue/delete/:id
+    2. attributes : http://localhost:8080/api/attributes/delete/:id
+    3. assignedattributes: http://localhost:8080/api/assignedAttributes/delete/:id
+    4. productType: http://localhost:8080/api/productType/delete/:id
+    5. product: http://localhost:8080/api/product/delete/:id
 
 ## Démarche
 
