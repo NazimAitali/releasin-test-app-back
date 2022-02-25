@@ -17,8 +17,8 @@
 1. Téléchargez le dossier depuis le repo
 2. Ouvrez le dossier dans cmd tapez la commande npm i
 3. Créez un fichier ". env" dans le racine du dossier ouvrez le , copier dedans ces deux lignes avant de sauvegarder
-   local = mongodb://localhost/RELEASIN-DB
-   atlas = mongodb+srv://Nazim: 24052008 @clusters.wc3tm .mongodb.net/RELEASIN-DB
+   - local = mongodb://localhost/RELEASIN-DB
+   - atlas = mongodb+srv://Nazim: 24052008 @clusters.wc3tm .mongodb.net/RELEASIN-DB
 4. Dans le fichier "index.js" et à ligne 15, remplacez ATLAS par LOCAL si vous souhaitez utiliser une base de donnés local
 5. Pour finir exécutez la commande npm star pour lancer l'API
 
@@ -26,8 +26,8 @@ NB : assurez-vous que NodeJs , NPM et mongoDBcompas sont bien installés sur vot
 
 ### liens
 
-Lien GitRepo : https://github.com/NazimAitali/releasin-test-app-front.git
-Lien live : https://releasin-test-app.netlify.app/
+- Solution URL:  https://github.com/NazimAitali/releasin-test-app-front.git
+- Live Site URL: https://releasin-test-app.netlify.app/
 
 ### endpoint
 
